@@ -81,6 +81,8 @@ const NavBar = () => {
                         </li>
                     </ul>
                     
+
+                    
                     <div className="signature text-center mt-4">
                         <p>Jean Elossy - 2021</p>
                     </div>
