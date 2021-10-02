@@ -1,0 +1,49 @@
+// parametres general
+
+//les variables
+
+// les polices
+$font-1: 'sans-sherif';
+$font-2: "cursive";
+$font-3: "serif";
+
+// les couleurs
+$color-1 : #2a1d53;
+$color-2 : #6C77F4;
+$color-3 : rgb(99, 164, 233);
+$color-4 : #4FEDD2;
+$color-5 : #36D0fa;
+$white : #ddd;
+$black : #333;
+
+$borderRadius: 15px;
+$boxShadow: 0 1px 3px $black;
+$minHeight: 95vh;
+
+// fin variables
+
+
+body{
+    margin: 1rem auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-5;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:visited {
+    color: $color-5;
+}
+
+
+// fin parametres general
