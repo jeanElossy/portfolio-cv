@@ -17,11 +17,16 @@ $white : #ddd;
 $black : #333;
 
 $borderRadius: 15px;
-$boxShadow: 0 1px 3px $black;
+$boxShadow: 0 4px 7px $color-5;
 $minHeight: 95vh;
 
 // fin variables
 
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body{
     margin: 1rem auto;

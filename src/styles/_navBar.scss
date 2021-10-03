@@ -26,6 +26,8 @@
                 li{
                     .icon--text {
                         font-size: 1.5rem;
+                        height: 100%;
+                        display: grid;
                         &:hover i {
                             transform: scale(1.4);
                         }
