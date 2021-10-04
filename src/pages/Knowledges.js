@@ -15,5 +15,4 @@ const Knowledges = () => {
         </div>
     )
 }
-
 export default Knowledges

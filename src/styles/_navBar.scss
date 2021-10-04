@@ -7,7 +7,7 @@
         color: $color-5;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 280px 270px 100px;
+        grid-template-rows: 230px 260px 50px;
         .idContent{
 
             img {
@@ -16,7 +16,7 @@
                     0 0 0 8px $color-4, 
                     0 0 0 12px $color-5;
             }
-            h2{
+            h3{
                 text-transform: uppercase;
             }
         }
@@ -40,15 +40,13 @@
             ul{
                 
                 li {
+                    @include center;
                     background: $color-5;
                     border-radius: 50%;
                     width: 50px;
                     height: 50px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                     cursor: pointer;
-                    margin-right: 4.2rem;
+                    margin-right: 3rem;
                     a {
                         color: $black;
                         font-size: 1.8rem;
@@ -59,6 +57,16 @@
             .signature {
                 font-size: 1rem;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 572px){
+    .social {
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 }

@@ -13,7 +13,7 @@ const NavBar = () => {
                         height="180" 
                         alt="profil-pic" 
                     />
-                    <h2 className="mt-4">Jean Elossy</h2>
+                    <h3 className="mt-3">Jean Elossy</h3>
                 </div>
 
                 <div className="navigation mt-3">
@@ -62,7 +62,7 @@ const NavBar = () => {
                     </ul>
                 </div>
 
-                <div className="social mt-4">
+                <div className="social mt-3">
                     <ul className="d-flex lien">
                         <li>
                             <a href="https://www.linkedin.com/in/jean-elossy-25585b152/" target="_blank" without rel="noreferrer">
@@ -93,5 +93,4 @@ const NavBar = () => {
         </div>
     )
 }
-
 export default NavBar;

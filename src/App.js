@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
-
   return (
     <>
       <BrowserRouter>
@@ -21,7 +20,6 @@ const App = () => {
     </>
   );
 }
-
 export default App;
 
 

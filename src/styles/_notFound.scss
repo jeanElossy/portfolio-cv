@@ -1,7 +1,5 @@
 .notFound{
-    display : flex ;
-    justify-content: center ;
-    align-items: center;
+    @include center;
     height: 95vh;
     background: $color-3;
     margin: 0 !important;

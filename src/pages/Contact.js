@@ -75,6 +75,5 @@ const Contat = () => {
     </div>
     )
 }
-
 export default Contat
 
