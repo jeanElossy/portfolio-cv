@@ -5,7 +5,7 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 45% 35%;
+    grid-template-rows: 20% 60% 20%;
     grid-template-areas: 
     "1"
     "2"
@@ -69,12 +69,12 @@
 
             a {
                 @include center;
-                width: 20%;
+                width: 15%;
                 font-size: 1.2rem;
                 background: $color-5;
                 border-radius: $borderRadius;
                 flex-direction: column;
-                padding: .7rem 0;
+                padding: .3rem 0;
                 box-shadow: 0  2px 4px $color-5;
                 transform: scaleY(0);
                 transform-origin: center;
@@ -117,3 +117,26 @@
 }
 
 
+@media screen and (max-width: 572px) {
+    .contactBox {
+        width:400px !important;
+        height: 250px !important;
+        padding: .4rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .socialNetwork {
+        ul{
+            justify-content: start !important;
+            
+            a{
+                width: 25% !important;
+                margin: 2rem 2.3rem 0 0;
+                
+                h4 {
+                    display: none;
+                }
+            }
+        }
+    }
+}

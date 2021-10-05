@@ -1,10 +1,13 @@
 // parametres general
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
 //les variables
 
 // les polices
-$font-1: 'sans-sherif';
-$font-2: "cursive";
+$font-1: 'Nova Round', cursive;
+$font-2: 'Poppins', sans-serif;
 $font-3: "serif";
 
 // les couleurs
@@ -52,3 +55,20 @@ a:visited {
 
 
 // fin parametres general
+
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+    display: flex;
+
+    @media screen and (max-width: 850px) {
+        display: block !important;
+    }
+}
+
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+
+    @media screen and (max-width: 572px) {
+        margin-top: 1rem;
+        width: 95%;
+    }
+}
+

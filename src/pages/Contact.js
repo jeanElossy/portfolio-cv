@@ -46,22 +46,22 @@ const Contat = () => {
                     </ul>
                 </div>
                 <div className="socialNetwork">
-                    <ul>
-                        <a href="#" 
+                    <ul>        
+                        <a href="https://www.linkedin.com/in/jean-elossy-25585b152/" 
                             target="_blank" 
                             rel="noopener moreferrer"
                         >
                             <h4>LinkedIn</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" 
+                        <a href="https://github.com/jeanElossy" 
                             target="_blank" 
                             rel="noopener moreferrer"
                         >
                             <h4>GitHub</h4>
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="#" 
+                        <a href="https://twitter.com/ElossyWilson" 
                             target="_blank" 
                             rel="noopener moreferrer"
                         >

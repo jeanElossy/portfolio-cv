@@ -62,11 +62,28 @@
 }
 
 @media screen and (max-width: 572px){
-    .social {
-        ul{
+    .sidebar {
+        
+        .id{
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            .idContent{
+                img, h3 {
+                    display: none;
+                }     
+            }
+            .navigation {
+                ul{
+                    display: flex;
+                }
+            }
+            .social {
+                ul{
+                    display: none !important;
+                }
+                .signature {
+                    display: none;
+                }
+            }
         }
     }
 }
