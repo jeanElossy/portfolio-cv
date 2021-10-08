@@ -40,7 +40,7 @@
 .contactContent {
     background: $color-3;
     border-radius: $borderRadius;
-    height: 623px;
+    height: $minHeight;
     overflow: hidden;
     display: grid;
     position: relative;

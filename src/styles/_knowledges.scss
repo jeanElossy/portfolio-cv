@@ -1,24 +1,23 @@
-.knowledges {
+
     .knowledgesContent {
       min-height: $minHeight;
-      // width: 100%;
       position: relative;
       overflow: hidden;
       display: grid;
       grid-template-columns: 38% 1fr 1fr;
-      grid-template-rows: 70% 30%;
+      grid-template-rows: 50% 30% 20%;
       grid-template-areas: 
         "L E E"
-        "O O H";
+        "O O D";
   
-      .languagesFrameworks, .experience, .otherSkills, .hobbies {
+      .languagesFramework, .experience, .otherSkills, .diplomes {
         background: $color-2;
         border-radius: $borderRadius;
         padding: .8rem;
       }
       h3 {
         font-size: 1.4rem;
-        margin-bottom: 1rem;
+        // margin-bottom: 1rem;
         font-family: $font-2;
         color: $color-5;
         text-transform: uppercase;
@@ -179,7 +178,7 @@
         }
       }
     }
-  }
+  
   @media screen and (max-width: 950px){
     .knowledgesContent {
       h3 {
