@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
-const Contat = () => {
+const Contact = () => {
     return (
         <div className="container-fluid">
         <div className="row justify-content-center align-items-center">
@@ -45,17 +45,21 @@ const Contat = () => {
 
                     </ul>
                 </div>
+
                 <div className="socialNetwork">
                     <ul>        
                         <a href="https://www.linkedin.com/in/jean-elossy-25585b152/" 
                             target="_blank" 
-                            rel="noopener moreferrer"
+                            without
+                            rel="moreferrer"
+                            
                         >
                             <h4>LinkedIn</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
                         <a href="https://github.com/jeanElossy" 
                             target="_blank" 
+                            without
                             rel="noopener moreferrer"
                         >
                             <h4>GitHub</h4>
@@ -63,6 +67,7 @@ const Contat = () => {
                         </a>
                         <a href="https://twitter.com/ElossyWilson" 
                             target="_blank" 
+                            without
                             rel="noopener moreferrer"
                         >
                             <h4>Twitter</h4>
@@ -75,5 +80,5 @@ const Contat = () => {
     </div>
     )
 }
-export default Contat
+export default Contact;
 

@@ -15,9 +15,9 @@ const NavBar = () => {
                     />
                     <h3 className="mt-5">Jean Elossy</h3>
                 </div>
-
-                <div className="navigation mt-3">
-                    <ul className="d-flex flex-column gap-4 mt-3">
+            </div>
+                <div className="navigation mt-5">
+                    <ul>
                         <li>
                             <NavLink 
                                 to="/" 
@@ -33,7 +33,7 @@ const NavBar = () => {
                             <NavLink 
                                 to="/competences" 
                                 activeClassName="navActive" 
-                                className="icon--text d-flex gap-4 align-items-center"
+                                className="d-flex align-items-center"
                             >
                                 <i class="fas fa-user-graduate"></i>
                                 <span>Competences</span>
@@ -43,7 +43,7 @@ const NavBar = () => {
                             <NavLink 
                                 to="/portfolio" 
                                 activeClassName="navActive" 
-                                className="icon--text d-flex gap-4 align-items-center"
+                                className="d-flex align-items-center"
                             >
                                 <i class="fas fa-project-diagram"></i>
                                 <span>Portfolio</span>
@@ -53,7 +53,7 @@ const NavBar = () => {
                             <NavLink 
                                 to="/contact" 
                                 activeClassName="navActive" 
-                                className="icon--text d-flex gap-4 align-items-center"
+                                className="d-flex align-items-center"
                             >
                                 <i class="fas fa-address-book"></i>
                                 <span>Contact</span>
@@ -87,7 +87,7 @@ const NavBar = () => {
                 </div>
 
 
-            </div>
+            
         </div>
     )
 }

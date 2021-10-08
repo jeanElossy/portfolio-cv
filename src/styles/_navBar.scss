@@ -20,12 +20,7 @@
       position: relative;
   
       .idContent {
-        // position: absolute;
-        // bottom: 0;
-        // left: 50%;
-        // transform: translateX(-50%);
-        // width: 100%;
-  
+          
         img {
           border-radius: 50%;
           box-shadow: 0 0 0 4px $color-3, 
@@ -51,8 +46,10 @@
         li {
             font-size: 1.3rem;
             position: relative;
+
             &:hover i {
-                transform: translate(3px, 3px);
+                transform: translate(5px, 5px);
+                
             }
 
             a {
@@ -64,7 +61,7 @@
 
             i {
                 position: absolute;
-                font-size: 0.95rem;
+                font-size: 1rem;
                 transform: translateY(3px);
                 transition: .2s ease;
             }
@@ -86,7 +83,7 @@
             font-size: 1.5rem;
             background: $color-5;
             color: $color-1;
-            padding: .5rem 0.8rem;
+            padding: .3rem 0.8rem;
             transition: .3s;
             cursor: pointer;
   
@@ -104,22 +101,23 @@
         }
     }
   }
-  @media screen and (max-width: 850px){
+  @media screen and (max-width: 700px){
     .sidebar {
-      display: flex;
-      min-height: 50px;
-      margin-bottom: .2rem;
-  
-      .id, .socialNetwork {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: .2rem;
+    width: 100%;
+      
+      .id, .social {
         display: none;
       }
       .navigation {
         width: 100%;
         padding: .1rem 1rem;
-  
+        margin-top: 1rem !important;
         ul {
-          display: flex;
-          justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
   
           span {
             margin-left: 1.5rem !important;
