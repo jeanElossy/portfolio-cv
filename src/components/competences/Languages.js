@@ -67,7 +67,7 @@ export default class Languages extends Component {
 
         return (
             <div>
-                <div className="languagesFrameworks">
+                <div className="languagesFrameworks d-flex flex-column gap-5">
 
                 
                     <ProgressBar 
