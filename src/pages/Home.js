@@ -13,7 +13,7 @@ const Home = () => {
                         <h1>Jean Elossy</h1>
                         <h2>Developpeur Full-stack Js <br /> React / Node</h2>
                         <div className="pdf">
-                            <a href="./media/BAC.pdf" target="_blank">
+                            <a href="./media/BAC.pdf" target="_blank" without rel="noreferrer">
                                 Telecharger CV
                             </a>
                         </div>

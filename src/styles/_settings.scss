@@ -1,74 +1,77 @@
-// parametres general
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
-
-//les variables
-
-// les polices
 $font-1: 'Nova Round', cursive;
-$font-2: 'Poppins', sans-serif;
-$font-3: "serif";
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
 
-// les couleurs
-$color-1 : #2a1d53;
-$color-2 : #6C77F4;
-$color-3 : rgb(99, 164, 233);
-$color-4 : #4FEDD2;
-$color-5 : #36D0fa;
-$white : #ddd;
-$black : #333;
+$color-1: #2a1d52;
+$color-2: #6C77F4;
+$color-3: rgb(99, 164, 233);
+$color-4: #4FEDD2;
+$color-5: #36D0EA;
+$white: #ddd;
+$black: #333;
 
-$borderRadius: 15px;
-$boxShadow: 0 4px 7px $color-5;
+$borderRadius: 25px;
+$boxShadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
-// fin variables
-
 @mixin center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
-body{
-    margin: 1rem auto;
+/* -----------body */
+body {
+  width: 100%;
+  overflow-y: auto;
 }
 
-li{
-    list-style-type: none;
+body::-webkit-scrollbar{
+  width: 6px;
+  height: 100%;
+  background: $white;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: $color-5;
+body::-webkit-scrollbar-thumb {
+  background: $color-1;
+  border-radius: 10px;
 }
+
+
+body {
+  margin-top: 1rem;
+  font-family: $font-1;
+  color: $black;
+}
+
+
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
 }
 
 a:visited {
-    color: $color-5;
+  color:$black;
 }
 
+.homeContent, 
+.knowledgesContent, 
+.portfolioContent, 
+.contactContent {
+  @media screen and (max-width: 850px){
+    margin-left: 0 !important;
+  }
 
-// fin parametres general
-
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-    display: flex;
-
-    @media screen and (max-width: 850px) {
-        display: block !important;
-    }
 }
-
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-
-    @media screen and (max-width: 572px) {
-        margin-top: 1rem;
-        width: 95%;
-    }
-}
-
