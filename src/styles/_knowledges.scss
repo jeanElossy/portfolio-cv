@@ -17,11 +17,11 @@
 
         .languagesFrameworks {
           grid-area: L;
-          line-height: 13px;
+          line-height: 11px;
           color: $color-3;
 
           .languageDisplay {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             h3{
               text-transform: uppercase;
               font-size: 1rem;
@@ -60,6 +60,8 @@
 
         .otherSkills {
           grid-area: O;
+          margin-top: 5px;
+          height: 96%;
           h3 {
             color: $color-5;
             font-size: 1.2rem;
@@ -163,7 +165,13 @@
       .otherSkills, .diplomes {
         font-size: .8rem;
         margin-top: 2rem;
-        
+        height: 250px !important;
+      }
+    }
+    .diplomes {
+      
+      .element--diplome {
+        display: block !important;
       }
     }
     .experience {
@@ -181,28 +189,33 @@
         padding: .2rem 1rem !important;
       }
     }
+    i{
+      font-size: .9rem;
+    }
   }
+
 
   @media screen and (max-width: 500px){
     .knowledgesContent {
-      display: grid !important;
-      grid-template-columns: 1fr !important;
-      grid-template-rows: 1fr 1fr 180px 180px !important;
-      
-      .languages {
-        grid-area: 1 !important;
+      display: block;
+
+      .languagesFrameworks {
+        margin-bottom: 10px !important;
       }
       .experience {
-        grid-area: 2 !important;
+        width: 100%;
         margin-left: 0 !important;
       }
       .otherSkills {
-        grid-area: 3 !important;
-        margin-right: 0 !important;
+        height: 100% !important;
+        margin: 10px 0 !important;
       }
       .diplomes {
-        grid-area: 4 !important;
         margin-top: .5rem !important;
+        width: 100%;
+        .element--diplome {
+          display: block !important;
+        }
       }
     }
   }

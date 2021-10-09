@@ -10,7 +10,7 @@ const NavBar = () => {
                     <img 
                         src="./media/profil.jpg" 
                         width="170" 
-                        height="180" 
+                        height="170" 
                         alt="profil-pic" 
                     />
                     <h3 className="mt-5">Jean Elossy</h3>
@@ -22,7 +22,7 @@ const NavBar = () => {
                             <NavLink 
                                 to="/" 
                                 activeClassName="navActive" 
-                                className="icon--text d-flex gap-4 align-items-center" 
+                                className="icon--text d-flex align-items-center" 
                             >
                                 <i className="fas fa-home"></i>
                                 <span>Acceuil</span>

@@ -6,7 +6,7 @@ const Diplomes = () => {
 
             <h1 className="h4">Formation en auto-Didacte developpeur web full-stack</h1>  
             
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between element--diplome">
                 <div className="d-flex">
                     <div className="form-1">
                         <h3 className="h6">2018-2019</h3>

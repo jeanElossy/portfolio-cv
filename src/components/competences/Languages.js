@@ -57,6 +57,11 @@ export default class Languages extends Component {
                 id: uniqueid,
                 value: "SQL",
                 xp: 0.6,
+            },
+            {
+                id: uniqueid,
+                value: "Redux",
+                xp: 0.7,
             }
         ]
     }

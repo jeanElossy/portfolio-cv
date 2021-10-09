@@ -101,7 +101,7 @@
         }
     }
   }
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 850px){
     .sidebar {
     display: flex;
     min-height: 50px;
@@ -116,8 +116,9 @@
         padding: .1rem 1rem;
         margin-top: 1rem !important;
         ul {
-        display: flex;
-        justify-content: space-between;
+          width: 90%;
+          display: flex;
+          justify-content: space-between;
   
           span {
             margin-left: 1.5rem !important;
@@ -126,6 +127,7 @@
       }
     }
   }
+
   @media screen and (max-width:580px){
     .sidebar {
       ul {
