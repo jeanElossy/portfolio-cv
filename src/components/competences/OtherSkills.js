@@ -5,7 +5,7 @@ const OtherSkills = () => {
         <div>
             <div className="otherSkills">
                 <h3>Autres competences</h3>
-                <div className="list">
+                <div className="list d-flex justify-content-between">
                     <ul>
                         <li>
                             <i className="fas fa-check-square">

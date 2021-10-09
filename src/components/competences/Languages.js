@@ -9,7 +9,7 @@ export default class Languages extends Component {
             {
                 id: uniqueid,
                 value: "JavaScript",
-                xp: 1.8,
+                xp: 2,
             },
             {
                 id: uniqueid,
@@ -26,7 +26,7 @@ export default class Languages extends Component {
             {
                 id: uniqueid,
                 value: "React",
-                xp: 1.7,
+                xp: 1.8,
             },
             {
                 id: uniqueid,
@@ -67,9 +67,8 @@ export default class Languages extends Component {
 
         return (
             <div>
-                <div className="languagesFrameworks d-flex flex-column gap-5">
+                <div className="languagesFrameworks">
 
-                
                     <ProgressBar 
                         languages={languages}
                         className="languageDisplay"
