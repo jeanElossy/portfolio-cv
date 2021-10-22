@@ -60,30 +60,74 @@ const ProjectList = () => {
       picture: './media/project6.JPG'
     },
 ])
+    const [radios, setRadio] = useState(
+      [
+        {
+          id: 1,
+          value: "javascript"
+        },
+        {
+          id: 2,
+          value: "html & css"
+        },
+        {
+          id: 3,
+          value: "react"
+        },
+        {
+          id: 4,
+          value: "node"
+        }
+      ]
+    )
 
-console.log(data);
+    const [selectedRadio, setSelectedRadio] = useState("javascript");
+
+    const handleRadio = (e) => {
+      setSelectedRadio(e.target.value);
+    }
 
     return (
         <div className="portfolioContent">
 
             <ul className="radioDisplay">
-            
+              {
+                radios.map((radio) => {
+                  return (
+                    <li key={radio.id}>
+                      <input 
+                        type="radio" 
+                        name="radio" 
+                        id={radio.value}
+                        checked={radio.value === selectedRadio}
+                        value={radio.value}
+                        onChange={(e) => handleRadio(e)}
+                      />
+                      <label htmlFor={radio.value}>
+                        {radio.value}
+                      </label>
+                    </li>
+                  )
+                })
+              }
             </ul>
             
             <div className="projects">
                 {
-                    data.map((item) => {
-                        return (
-                            <Project 
-                                item={item}
-                                key={item.id}
-                            />
-                        )
-                    })
+                  data
+                    .filter((item) => item.languages.includes(selectedRadio))
+                    .map((item) => {
+                      return (
+                          <Project 
+                              item={item}
+                              key={item.id}
+                          />
+                      )
+                  })
                 }
             </div>
+
         </div>
     )
 }
-
 export default ProjectList

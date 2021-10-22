@@ -59,7 +59,9 @@
   }
   @media screen and (max-width:580px){
     .homeContent {
-      
+
+      background: linear-gradient(rgba(29, 29, 29, 0.822) 100%, transparent 100%);
+
       &:after {
       background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
       }
