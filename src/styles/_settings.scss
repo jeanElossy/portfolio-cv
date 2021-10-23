@@ -27,6 +27,9 @@ $minHeight: 96vh;
 body {
   width: 100%;
   overflow-y: auto;
+  margin-top: 1rem;
+  font-family: $font-1;
+  color: $black;
 }
 
 body::-webkit-scrollbar{
@@ -38,12 +41,6 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb {
   background: $color-1;
   border-radius: 10px;
-}
-
-body {
-  margin-top: 1rem;
-  font-family: $font-1;
-  color: $black;
 }
 
 
