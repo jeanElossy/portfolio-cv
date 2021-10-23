@@ -6,40 +6,35 @@ const OtherSkills = () => {
             <div className="otherSkills">
                 <h3>Autres competences</h3>
                 <div className="list d-flex justify-content-between">
-                    <ul>
-                        <li>
-                            <i className="fas fa-check-square"></i>
+                    <div className="mt-2">
+                        <div>
                             <span>
                                 Anglais debutant
                             </span>
-                        </li>
-                        <li>
-                            <i className="fas fa-check-square"></i>
+                        </div>
+                        <div>
                             <span>
                                 Github
                             </span>
-                        </li>
-                        <li>
-                            <i className="fas fa-check-square"></i>
+                        </div>
+                        <div>
                             <span>
                                 Methode agiles
                             </span>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <i className="fas fa-check-square"></i>
+                        </div>
+                    </div>
+                    <div  className="mt-2">
+                        <div>
                             <span>
                                 Adobe PhotoShop
                             </span>
-                        </li>
-                        <li>
-                            <i className="fas fa-check-square"></i>
+                        </div>
+                        <div>
                             <span>
                                 Adobe illustrator
                             </span>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

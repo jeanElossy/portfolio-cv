@@ -9,44 +9,33 @@ const Diplomes = () => {
             <div className="d-flex justify-content-between element--diplome">
                 <div className="d-flex">
                     <div className="form-1">
-                        <h3 className="h6">2018-2019</h3>
+                        <h3 className="h6 mt-4">2018-2019</h3>
                         <div>
-                            <ul>
-                                <li>
-                                    <i className="fas fa-check-square"></i>
-                                    <span>
-                                        Certification OpenClasrooms (Html5 & Css3 & JavaScript)
-                                    </span>
-                                </li>
-                            </ul>
+                            <span>
+                                Certification OpenClasrooms (Html5 & Css3 & JavaScript)
+                            </span>
                         </div>
                     </div>
 
                     <div>
-                        <div className="title">
+                        <div className="title mt-4">
                             <h3 className="h6">2019-2020</h3>
                         </div>
-                        <ul>
-                            <li>
-                                <i className="fas fa-check-square"></i>
-                                <span>
-                                    Certificat OpenClasrooms (React.js & Node.js & Express.js)
-                                </span>
-                            </li>
-                        </ul>
+                        <div>
+                            <span>
+                                Certificat OpenClasrooms (React.js & Node.js & Express.js)
+                            </span>
+                        </div>
                     </div>
                 </div> 
         
-                <div className="">
+                <div className="mt-md-4">
                     <h3 className="h6">2021</h3>
-                    <ul>
-                        <li>
-                            <i className="fas fa-check-square"></i>
-                            <span>
-                                Developpeur full-stack junior js react/node (MERN).
-                            </span>
-                        </li>
-                    </ul>
+                    <div>
+                        <span>
+                            Developpeur full-stack junior js react/node (MERN).
+                        </span>
+                    </div>
                 </div>
             </div>
 

@@ -86,11 +86,6 @@
             font-family: $font-1;
 
           }
-          i{
-            color: $color-1;
-            font-family: $font-1;
-
-          }
         }
 
         .diplomes {
@@ -112,14 +107,7 @@
             font-family: $font-1;
 
           }
-          i{
-            color: $color-1;
-            font-family: $font-3;
-
-          }
-
         }
-        
         .years {
           font-size: .65rem;
           display: flex;
@@ -151,7 +139,6 @@
         }
         .languagesList {
           padding-top: .5rem;
-  
           li {
             color: $color-1;
           }
