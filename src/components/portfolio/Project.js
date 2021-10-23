@@ -30,7 +30,7 @@ const Project = ({ item }) => {
             >
                 <i className="fas fa-circle"></i>
             </span>
-
+            
             {
                 show && (
                     <div className="showInfos">
