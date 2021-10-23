@@ -217,7 +217,7 @@
   @media screen and (max-width: 500px){
     .knowledgesContent {
       display: block;
-
+      
       .languagesFrameworks {
         margin-bottom: 10px !important;
       }
@@ -232,6 +232,7 @@
       .diplomes {
         margin-top: .5rem !important;
         width: 100%;
+        margin-bottom: 3rem !important;
         .element--diplome {
           display: block !important;
         }
