@@ -1,6 +1,6 @@
 .sidebar {
     background: $color-1;
-    font-family: $font-1;
+    font-family: $font-3;
     min-height: $minHeight;
     min-width: 264px;
     border-radius: $borderRadius;
@@ -23,9 +23,8 @@
           
         img {
           border-radius: 50%;
-          box-shadow: 0 0 0 4px $color-3, 
-            0 0 0 8px $color-4, 
-             0 0 0 12px $color-2;
+          box-shadow: 0 0 0 4px $color-3;
+          object-fit: cover;
         }
         h3 {
           font-size: 1.3rem;

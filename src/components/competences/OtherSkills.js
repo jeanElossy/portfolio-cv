@@ -8,36 +8,36 @@ const OtherSkills = () => {
                 <div className="list d-flex justify-content-between">
                     <ul>
                         <li>
-                            <i className="fas fa-check-square">
+                            <i className="fas fa-check-square"></i>
+                            <span>
                                 Anglais debutant
-                            </i>
+                            </span>
                         </li>
                         <li>
-                            <i className="fas fa-check-square">
+                            <i className="fas fa-check-square"></i>
+                            <span>
                                 Github
-                            </i>
+                            </span>
                         </li>
                         <li>
-                            <i className="fas fa-check-square">
+                            <i className="fas fa-check-square"></i>
+                            <span>
                                 Methode agiles
-                            </i>
+                            </span>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <i className="fas fa-check-square">
+                            <i className="fas fa-check-square"></i>
+                            <span>
                                 Adobe PhotoShop
-                            </i>
+                            </span>
                         </li>
                         <li>
-                            <i className="fas fa-check-square">
-                                Adobe Premiere pro (Montage video)
-                            </i>
-                        </li>
-                        <li>
-                            <i className="fas fa-check-square">
+                            <i className="fas fa-check-square"></i>
+                            <span>
                                 Adobe illustrator
-                            </i>
+                            </span>
                         </li>
                     </ul>
                 </div>

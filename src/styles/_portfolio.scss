@@ -4,7 +4,7 @@
     display: grid;
     min-height: $minHeight;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 60px 1fr;
     grid-template-areas: 
       "1"
       "2";
@@ -92,12 +92,11 @@
       padding: .3rem;
       box-shadow: $boxShadow;
       display: grid;
-      grid-template-rows: 15% 15% 55% 15%;
+      grid-template-rows: 15% 15% 70%;
       grid-template-areas: 
         "1"
         "2"
-        "3"
-        "4";
+        "3";
     }
     .icons {
       grid-area: 1;
@@ -108,7 +107,7 @@
       i {
         font-size: 1.4rem;
         padding: 0 .35rem;
-        color: $color-5;
+        color: $color-1;
         text-shadow: 0 0px 1px $color-1;
       }
     }
@@ -117,7 +116,8 @@
       font-family: $font-2;
       font-size: 1.65rem;
       @include center;
-      justify-content: left;
+      justify-content: center;
+      
 
     }
     img {
@@ -125,23 +125,11 @@
       object-fit: cover;
       margin: 0 auto;
       width: 100%;
-      height: 100%;
-      box-shadow: 0 2px 6px #333;
+      height: 95%;
+      box-shadow: 0 1px 4px #333;
       border-radius: 4px;
       cursor: pointer;
       @include center;
-    }
-    .infos {
-      grid-area: 4;
-      color: $color-4;
-      cursor: pointer;
-      font-size: 1.5rem;
-      @include center;
-      transition: .2s;
-
-      &:hover {
-        transform: scale(1.1);
-      }
     }
     .showInfos {
       position: absolute;
@@ -155,13 +143,13 @@
 
       .infosContent {
         position: relative;
-        top: 25%;
-        width: 750px;
+        top: 30%;
+        width: 700px;
         margin: 0 auto;
         color: $color-5;
         background: $color-1;
         border-radius: $borderRadius;
-        padding: 2rem;
+        padding: 1rem;
         box-shadow: 0 10px 10px #333;
         animation: popup .6s ease forwards;
         transform: scale(0);
@@ -187,7 +175,7 @@
         color: $color-1;
         background: $color-5;
         border-radius: $borderRadius;
-        padding: 1rem;
+        padding: .5rem;
         transition: .2s;
 
         &:hover {
@@ -199,7 +187,7 @@
         padding-bottom: 1rem;
       }
       .return {
-        margin: 1rem auto;
+        margin: .5rem auto;
         width: 200px;
       }
     }
@@ -215,23 +203,32 @@
       }
     }
     .infosContent {
-      width: 50% !important;
+      width: 100% !important;
     }
   }
 }
+
+
+
+
 @media (max-width: 520px){
   .radioDisplay {
-    height: 55px;
+    height: 60px;
+    padding: 0 5px !important;
   }
   .portfolioContent {
     grid-template-rows: 1fr !important;
 
     .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
+      grid-template-rows: 30px 40px 130px !important;
+      border-radius: 10px;
       width: 98% !important;
 
       img {
         height: 100% !important;
+      }
+      .infosContent {
+        width: 95% !important;
       }
     }
   }

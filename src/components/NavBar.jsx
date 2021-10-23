@@ -65,7 +65,7 @@ const NavBar = () => {
                 <div className="social mt-4">
                     <ul className="d-flex">
                         <li className="rounded-circle d-flex justify-content-center align-items-center ">
-                            <a href="https://www.linkedin.com/in/jean-elossy-25585b152/" target="_blank" without rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/jean-elossy-25585b152" target="_blank" without rel="noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </li>

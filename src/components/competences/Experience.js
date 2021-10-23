@@ -7,14 +7,16 @@ const Experience = () => {
 
             <div className="exp-1">
                 <h2 className="h4">2021</h2>
-                <h3 className="h4">Realisation de projet d'un client en freelance</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis delectus perferendis culpa dicta officiis, debitis aspernatur odit quo earum explicabo. Repellat autem minus magnam ipsa laboriosam officiis recusandae sequi.</p>
+                <p>Réalisation d'un systeme de panier (Html5 & Css3 & JavaScript</p>
+                <p>Réalisation de portfolio (Html5 & Css3)</p>
+                <p>Réalisation d'une copie de youtube (React js)</p>
             </div>
 
             <div className="exp-2">
                 <h2 className="h4">2020 - 2021</h2>
-                <h3 className="h5">Perfectionnement a travers un projet d'etude</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis delectus perferendis culpa dicta officiis, debitis aspernatur odit quo earum explicabo. Repellat autem minus magnam ipsa laboriosam officiis recusandae sequi.</p>
+                <p>Réalisation d'une liste de tâche en faisant un CRUD (Reactjs, Redux)</p>
+                <p>Communication avec l'API JSONPlaceholder pour test(Reactjs, JavaScript)</p>
+                <p>Participation à un projet e-commerce (LMC)</p>
             </div>
             
         </div>

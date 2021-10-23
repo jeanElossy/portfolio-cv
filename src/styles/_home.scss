@@ -11,7 +11,7 @@
         right: 0;
         height: 100%;
         width: inherit;
-        background: url('../../src/media/profil.jpg') no-repeat center/cover;
+        background: url('../../src/media/8.jpg') no-repeat center/cover;
         z-index: -1;
         filter: brightness(100%);
       }
@@ -34,6 +34,8 @@
           padding: 1.5rem 0 7rem;
           color: $color-3;
           text-shadow: 1px 4px 1px $black;
+          font-family: $font-3;
+          font-weight: bold;
         }
         .pdf {
           a {
@@ -60,10 +62,10 @@
   @media screen and (max-width:580px){
     .homeContent {
 
-      background: linear-gradient(rgba(29, 29, 29, 0.822) 100%, transparent 100%);
+      background: linear-gradient(rgba(63, 60, 60, 0.596) 100%, transparent 100%);
 
       &:after {
-      background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
+      // background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
       }
       h1 {
         font-size: 3rem !important;

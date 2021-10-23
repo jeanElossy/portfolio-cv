@@ -13,9 +13,10 @@ const Diplomes = () => {
                         <div>
                             <ul>
                                 <li>
-                                    <i className="fas fa-check-square">
-                                        Certificat OpenClasrooms (Html5 & Css3 & JavaScript)
-                                    </i>
+                                    <i className="fas fa-check-square"></i>
+                                    <span>
+                                        Certification OpenClasrooms (Html5 & Css3 & JavaScript)
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -27,9 +28,10 @@ const Diplomes = () => {
                         </div>
                         <ul>
                             <li>
-                                <i className="fas fa-check-square">
+                                <i className="fas fa-check-square"></i>
+                                <span>
                                     Certificat OpenClasrooms (React.js & Node.js & Express.js)
-                                </i>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -39,14 +41,10 @@ const Diplomes = () => {
                     <h3 className="h6">2021</h3>
                     <ul>
                         <li>
-                            <i className="fas fa-check-square">
-                                Actuellement en formation a l'ecole GOMYCODE-IC pour le titre de developpeur full-sack js react/node (MERN).
-                            </i>
-                        </li>
-                        <li>
-                            <i className="fas fa-check-square">
-                                Certificat OpenClasrooms (MongoDB & Php & SQL)
-                            </i>
+                            <i className="fas fa-check-square"></i>
+                            <span>
+                                Developpeur full-stack junior js react/node (MERN).
+                            </span>
                         </li>
                     </ul>
                 </div>

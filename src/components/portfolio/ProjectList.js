@@ -7,57 +7,57 @@ const ProjectList = () => {
         [
     {
       id: 1,
-      name: 'ipsum.com',
-      languages: ['javascript','css'],
-      languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project1.JPG'
+      name: 'Portfolio en html & css',
+      languages: ['javascript','css', 'html'],
+      languagesIcons: ['fab fa-css3-alt','fab fa-html5'],
+      source: 'https://github.com/jeanElossy/Gomycode-checkpoint-hmtl-css-layout.git',
+      info: 'Projet de cours sur la realisation d\'un porfolio en html5 & css3 afin de verifier les bases appris avec ces deux langages de description.',
+      picture: './media/2.jpeg'
     },
     {
       id: 2,
-      name: 'lorem.fr',
-      languages: ['javascript','react'],
-      languagesIcons: ['fab fa-js','fab fa-react'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project2.JPG'
+      name: 'Systeme de panier',
+      languages: ['javascript','css', 'html'],
+      languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-html5'],
+      source: 'https://github.com/jeanElossy/gomycode-projet-panier.git',
+      info: 'Porjet de cours sur la realisation d\'un systeme de panier en javascript(DOM) pour la verification de nos connaissances sur cette competence.',
+      // picture: './media/6.jpeg'
     },
     {
       id: 3,
-      name: 'dolorset.fr',
-      languages: ['javascript','php','css'],
-      languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project3.JPG'
+      name: 'TodoList en react',
+      languages: ['javascript','react'],
+      languagesIcons: ['fab fa-js','fab fa-bootstrap','fab fa-react'],
+      source: 'https://github.com/jeanElossy/gomycode-checkpoint-redux.git',
+      info: 'Projet todoList en faisant un CRUD et en utilisant Redux pour la gestion des etats.',
+      // picture: './media/5.jpeg'
     },
     {
       id: 4,
-      name: 'laboriosam.fr',
-      languages: ['javascript','php','react'],
-      languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project4.JPG'
+      name: 'Portfolio en react',
+      languages: ['javascript','react'],
+      languagesIcons: ['fab fa-js','fab fa-sass','fab fa-react'],
+      source: 'https://github.com/jeanElossy/portfolio.git',
+      info: 'Realisation de ce protfolio en react comme mon portfolio de fin de formation.',
+      // picture: './media/7.png'
     },
     {
       id: 5,
-      name: 'repudiante.com',
-      languages: ['javascript','css'],
-      languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project5.JPG'
+      name: 'API REST',
+      languages: ['javascript','node'],
+      languagesIcons: ['fab fa-js', 'fab fa-node'],
+      source: 'https://github.com/jeanElossy/create-api.git',
+      info: 'Creation d\'une api qui fournira les informations sur tous les profiles dansle meliieur de la tech dont la realisation d\'une plateforme pour la communication afin de permettre aux potentiels clients de mieux choisir leur employes.',
+      // picture: './media/3.jpeg'
     },
     {
       id: 6,
-      name: 'test.io',
-      languages: ['javascript','react', 'css'],
-      languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-      source: 'http://www.github.com',
-      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-      picture: './media/project6.JPG'
+      name: 'Projet de fin d\'etude',
+      languages: ['javascript','react', 'node'],
+      languagesIcons: ['fab fa-js','fab fa-react','fab fa-bootstrap','fab fa-node'],
+      source: 'https://github.com/jeanElossy/gomycode-checkpoint-express.git',
+      info: 'Realisation d\'un site e-commerce en complet avec la pile MERN.',
+      // picture: './media/4.jpeg'
     },
 ])
     const [radios, setRadio] = useState(
@@ -68,7 +68,7 @@ const ProjectList = () => {
         },
         {
           id: 2,
-          value: "html & css"
+          value: "css"
         },
         {
           id: 3,

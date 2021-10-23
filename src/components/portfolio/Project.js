@@ -16,7 +16,7 @@ const Project = ({ item }) => {
                     )
                 }
             </div>
-            <h3>{name}</h3>
+            <h5 className="mt-2">{name}</h5>
             <img 
                 src={picture} 
                 alt=""
@@ -24,13 +24,6 @@ const Project = ({ item }) => {
                 // className="img-responsive"
             />
 
-            <span 
-                className="infos"
-                onClick={(e) => setShow(!show)}
-            >
-                <i className="fas fa-circle"></i>
-            </span>
-            
             {
                 show && (
                     <div className="showInfos">
