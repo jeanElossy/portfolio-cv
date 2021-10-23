@@ -61,16 +61,25 @@
   @media screen and (max-width:580px){
     .homeContent {
 
-      background: linear-gradient(rgba(63, 60, 60, 0.596) 100%, transparent 100%);
+      background: linear-gradient(rgba(26, 19, 19, 0.74) 100%, transparent 100%);
 
       &:after {
-      // background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
+      background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
+      
       }
       h1 {
+        margin-top: 10rem;
         font-size: 3rem !important;
       }
       h2 {
+        margin-top: 5px;
         font-size: 1.8rem !important;
+      }
+      .pdf {
+        margin-top: -4rem;
+        a{
+
+        }
       }
     }
   }

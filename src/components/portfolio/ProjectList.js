@@ -21,7 +21,7 @@ const ProjectList = () => {
       languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-html5'],
       source: 'https://github.com/jeanElossy/gomycode-projet-panier.git',
       info: 'Porjet de cours sur la realisation d\'un systeme de panier en javascript(DOM) pour la verification de nos connaissances sur cette competence.',
-      // picture: './media/6.jpeg'
+      picture: './media/6.jpeg'
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const ProjectList = () => {
       languagesIcons: ['fab fa-js','fab fa-bootstrap','fab fa-react'],
       source: 'https://github.com/jeanElossy/gomycode-checkpoint-redux.git',
       info: 'Projet todoList en faisant un CRUD et en utilisant Redux pour la gestion des etats.',
-      // picture: './media/5.jpeg'
+      picture: './media/5.jpeg'
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const ProjectList = () => {
       languagesIcons: ['fab fa-js','fab fa-sass','fab fa-react'],
       source: 'https://github.com/jeanElossy/portfolio.git',
       info: 'Realisation de ce protfolio en react comme mon portfolio de fin de formation.',
-      // picture: './media/7.png'
+      picture: './media/7.png'
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const ProjectList = () => {
       languagesIcons: ['fab fa-js', 'fab fa-node'],
       source: 'https://github.com/jeanElossy/create-api.git',
       info: 'Creation d\'une api qui fournira les informations sur tous les profiles dansle meliieur de la tech dont la realisation d\'une plateforme pour la communication afin de permettre aux potentiels clients de mieux choisir leur employes.',
-      // picture: './media/3.jpeg'
+      picture: './media/3.jpeg'
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ const ProjectList = () => {
       languagesIcons: ['fab fa-js','fab fa-react','fab fa-bootstrap','fab fa-node'],
       source: 'https://github.com/jeanElossy/gomycode-checkpoint-express.git',
       info: 'Realisation d\'un site e-commerce en complet avec la pile MERN.',
-      // picture: './media/4.jpeg'
+      picture: './media/4.jpeg'
     },
 ])
     const [radios, setRadio] = useState(
