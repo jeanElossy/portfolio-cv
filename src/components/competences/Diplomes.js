@@ -33,7 +33,7 @@ const Diplomes = () => {
                     <h3 className="h6">2021</h3>
                     <div>
                         <span>
-                            Developpeur full stack javascript junior react/node (MERN).
+                            Certificat Gomycode developpeur full stack javascript junior react/node (MERN).
                         </span>
                     </div>
                 </div>
