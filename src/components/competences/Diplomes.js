@@ -4,7 +4,7 @@ const Diplomes = () => {
     return (
         <div className="diplomes">
 
-            <h1 className="h4">Formation en auto-Didacte developpeur web full-stack</h1>  
+            <h1 className="h4">Formation en autodidacte developpeur web full-stack</h1>  
             
             <div className="d-flex justify-content-between element--diplome">
                 <div className="d-flex">
