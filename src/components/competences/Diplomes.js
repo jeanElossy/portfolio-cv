@@ -9,7 +9,7 @@ const Diplomes = () => {
             <div className="d-flex justify-content-between element--diplome">
                 <div className="d-flex">
                     <div className="form-1">
-                        <h3 className="h6 mt-4">2018-2019</h3>
+                        <h3 className="h6 mt-md-1">2018-2019</h3>
                         <div>
                             <span>
                                 Certification OpenClasrooms (Html5 & Css3 & JavaScript)
@@ -18,7 +18,7 @@ const Diplomes = () => {
                     </div>
 
                     <div>
-                        <div className="title mt-4">
+                        <div className="title mt-md-1">
                             <h3 className="h6">2019-2020</h3>
                         </div>
                         <div>
@@ -29,7 +29,7 @@ const Diplomes = () => {
                     </div>
                 </div> 
         
-                <div className="mt-md-4">
+                <div className="mt-md-1">
                     <h3 className="h6">2021</h3>
                     <div>
                         <span>

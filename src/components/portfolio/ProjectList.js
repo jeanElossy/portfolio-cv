@@ -8,7 +8,7 @@ const ProjectList = () => {
     {
       id: 1,
       name: 'Portfolio en html & css',
-      languages: ['javascript','css', 'html'],
+      languages: ['js','css', 'html'],
       languagesIcons: ['fab fa-css3-alt','fab fa-html5'],
       source: 'https://github.com/jeanElossy/Gomycode-checkpoint-hmtl-css-layout.git',
       info: 'Projet de cours sur la realisation d\'un porfolio en html5 & css3 afin de verifier les bases appris avec ces deux langages de description.',
@@ -17,7 +17,7 @@ const ProjectList = () => {
     {
       id: 2,
       name: 'Systeme de panier',
-      languages: ['javascript','css', 'html'],
+      languages: ['js','css', 'html'],
       languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-html5'],
       source: 'https://github.com/jeanElossy/gomycode-projet-panier.git',
       info: 'Porjet de cours sur la realisation d\'un systeme de panier en javascript(DOM) pour la verification de nos connaissances sur cette competence.',
@@ -26,7 +26,7 @@ const ProjectList = () => {
     {
       id: 3,
       name: 'TodoList en react',
-      languages: ['javascript','react'],
+      languages: ['js','react'],
       languagesIcons: ['fab fa-js','fab fa-bootstrap','fab fa-react'],
       source: 'https://github.com/jeanElossy/gomycode-checkpoint-redux.git',
       info: 'Projet todoList en faisant un CRUD et en utilisant Redux pour la gestion des etats.',
@@ -35,7 +35,7 @@ const ProjectList = () => {
     {
       id: 4,
       name: 'Portfolio en react',
-      languages: ['javascript','react'],
+      languages: ['js','react'],
       languagesIcons: ['fab fa-js','fab fa-sass','fab fa-react'],
       source: 'https://github.com/jeanElossy/portfolio.git',
       info: 'Realisation de ce protfolio en react comme mon portfolio de fin de formation.',
@@ -44,7 +44,7 @@ const ProjectList = () => {
     {
       id: 5,
       name: 'API REST',
-      languages: ['javascript','node'],
+      languages: ['js','node'],
       languagesIcons: ['fab fa-js', 'fab fa-node'],
       source: 'https://github.com/jeanElossy/create-api.git',
       info: 'Creation d\'une api qui fournira les informations sur tous les profiles dansle meliieur de la tech dont la realisation d\'une plateforme pour la communication afin de permettre aux potentiels clients de mieux choisir leur employes.',
@@ -53,7 +53,7 @@ const ProjectList = () => {
     {
       id: 6,
       name: 'Projet de fin d\'etude',
-      languages: ['javascript','react', 'node'],
+      languages: ['js','react', 'node'],
       languagesIcons: ['fab fa-js','fab fa-react','fab fa-bootstrap','fab fa-node'],
       source: 'https://github.com/jeanElossy/gomycode-checkpoint-express.git',
       info: 'Realisation d\'un site e-commerce en complet avec la pile MERN.',
@@ -64,7 +64,7 @@ const ProjectList = () => {
       [
         {
           id: 1,
-          value: "javascript"
+          value: "js"
         },
         {
           id: 2,
@@ -81,7 +81,7 @@ const ProjectList = () => {
       ]
     )
 
-    const [selectedRadio, setSelectedRadio] = useState("javascript");
+    const [selectedRadio, setSelectedRadio] = useState("js");
 
     const handleRadio = (e) => {
       setSelectedRadio(e.target.value);

@@ -183,3 +183,27 @@
       }
     }
   }
+  
+  @media screen and (max-width: 400px){
+    .contactContent {
+      
+      .contactBox { 
+        ul {
+          span {
+            transform: translateX(30px);
+          }
+        }
+      }
+      .socialNetwork {
+        
+        ul {
+          gap: 20px;
+          padding: 10px;
+          a {
+            width: 34%;
+          }
+          
+        }
+      }
+    }
+  }

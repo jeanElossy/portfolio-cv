@@ -37,7 +37,7 @@ const Project = ({ item }) => {
                                         className="button" 
                                         target="_blank"
                                     >
-                                        code source
+                                        codes
                                     </a>
                                 </div>
                             </div>

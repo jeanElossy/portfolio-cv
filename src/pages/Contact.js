@@ -50,8 +50,7 @@ const Contact = () => {
                     <ul>        
                         <a href="https://www.linkedin.com/in/jean-elossy-25585b152/" 
                             target="_blank" 
-                            without
-                            rel="moreferrer"
+                            rel="noreferrer"
                             
                         >
                             <h4>LinkedIn</h4>
@@ -59,16 +58,14 @@ const Contact = () => {
                         </a>
                         <a href="https://github.com/jeanElossy" 
                             target="_blank" 
-                            without
-                            rel="noopener moreferrer"
+                            rel="noopener noreferrer"
                         >
                             <h4>GitHub</h4>
                             <i className="fab fa-github"></i>
                         </a>
                         <a href="https://twitter.com/ElossyWilson" 
                             target="_blank" 
-                            without
-                            rel="noopener moreferrer"
+                            rel="noopener noreferrer"
                         >
                             <h4>Twitter</h4>
                             <i className="fab fa-twitter"></i>
