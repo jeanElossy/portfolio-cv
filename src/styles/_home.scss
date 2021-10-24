@@ -40,7 +40,7 @@
           a {
             font-size: 1.5rem;
             background: $color-3;
-            padding: 1rem 2rem;
+            padding: .5rem 2rem;
             border-radius: $borderRadius;
             box-shadow: 0 5px 1px rgb(15, 15, 15);
             transition: 0.2s ease;
@@ -63,7 +63,6 @@
 
       background: linear-gradient(rgba(26, 19, 19, 0.74) 100%, transparent 100%);
       width: 94% !important;
-      margin-bottom: 2rem !important;
       &:after {
       background: url('../../src/media/profil.jpg') no-repeat center/cover !important;
       
@@ -74,16 +73,19 @@
       }
       h2 {
         margin-top: 5px;
-        font-size: 1.8rem !important;
+        font-size: 1.5rem !important;
       }
       .pdf {
-        margin: -5rem 4.5rem 0;
+        margin: -4rem 1rem 0;
+        a {
+          font-size: 1rem !important;
+        }
       }
-      .junior {
-        margin-left: 10rem;
-      }
-      .react{
-        margin-left: 5rem;
-      }
+      // .junior {
+      //   margin-left: 10rem;
+      // }
+      // .react{
+      //   margin-left: 5rem;
+      // }
     }
   }
