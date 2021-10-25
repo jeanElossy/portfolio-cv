@@ -135,7 +135,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      bottom: -160%;
+      bottom: 0;
       right: 0;
       background: rgba(0, 0, 0, 0.507);
       animation: popup .3s ease forwards ;
@@ -270,9 +270,12 @@
       img {
         width: 90% !important;
       }
+      .showInfos {
+        bottom: -160%;
       .infosContent {
         width: 100% !important;
       }
     }
+  }
 }
 }
