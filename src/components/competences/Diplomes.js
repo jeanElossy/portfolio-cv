@@ -4,7 +4,7 @@ const Diplomes = () => {
     return (
         <div className="diplomes">
 
-            <h1 className="h4">Formation en autodidacte developpeur web full-stack</h1>  
+            <h1 className="h4">Formation en autodidacte developpeur web full stack</h1>  
             
             <div className="d-flex justify-content-between element--diplome">
                 <div className="d-flex">
@@ -12,7 +12,7 @@ const Diplomes = () => {
                         <h3 className="h6 mt-md-1">2018-2019</h3>
                         <div>
                             <span>
-                                Certification OpenClasrooms (Html5 & Css3 & JavaScript)
+                                Certificat OpenClasrooms (Html5 & Css3 & JavaScript)
                             </span>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const Diplomes = () => {
                     <h3 className="h6">2021</h3>
                     <div>
                         <span>
-                            Certificat Gomycode developpeur full stack javascript junior react/node (MERN).
+                            Certificat Gomycode dévéloppeur full stack javascript junior react/node (MERN).
                         </span>
                     </div>
                 </div>

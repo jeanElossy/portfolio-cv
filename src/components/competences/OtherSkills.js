@@ -4,7 +4,7 @@ const OtherSkills = () => {
     return (
         <div>
             <div className="otherSkills">
-                <h3>Autres competences</h3>
+                <h3>Autres compétences</h3>
                 <div className="list d-flex justify-content-between">
                     <div className="mt-2">
                         <div>
@@ -19,7 +19,7 @@ const OtherSkills = () => {
                         </div>
                         <div>
                             <span>
-                                Methode agiles
+                                Méthodes agiles
                             </span>
                         </div>
                     </div>

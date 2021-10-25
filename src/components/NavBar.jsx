@@ -36,7 +36,7 @@ const NavBar = () => {
                                 className="d-flex align-items-center"
                             >
                                 <i class="fas fa-user-graduate"></i>
-                                <span>Competences</span>
+                                <span>Compétences</span>
                             </NavLink>
                         </li>
                         <li>

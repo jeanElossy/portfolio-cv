@@ -8,9 +8,9 @@ const ProgressBar = (props) => {
         
             <h3>{props.title}</h3>
             <div className="years">
-                <span>Annee d'experience</span>
+                <span>Annee d'expérience</span>
                 <span>1 an</span>
-                <span>2 an</span>
+                <span>2 ans</span>
             </div>
 
             <div>
@@ -22,7 +22,7 @@ const ProgressBar = (props) => {
 
                         return (
                             <div key={item.id} className="languagesList">
-                                <li>{item.value}</li>
+                                <li className="mb-1">{item.value}</li>
                                 <div className="progressBar" style={{width:ProgressBar}}>
                                     
                                 </div>

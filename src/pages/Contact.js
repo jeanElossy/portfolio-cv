@@ -18,7 +18,7 @@ const Contact = () => {
                     <ul>
                         <li>
                             <i className="fas fa-map-marker-alt"></i>
-                            <span>Abidjan / Cote d'Ivoire</span> 
+                            <span>Abidjan / Côte d'Ivoire</span> 
                         </li>
 
                         <li>
@@ -27,7 +27,7 @@ const Contact = () => {
                                 <span className="clickInput" onClick={() => {
                                         alert("Numero de telephone copie !");
                                     }}>
-                                        07 494 908 35
+                                        (+225) 07 494 908 35
                                 </span>
                             </CopyToClipboard>
                         </li>

@@ -6,7 +6,7 @@ const Loader = () => (
         <ReactLoading 
         type="bars"
         color="#422c85" 
-        height={50}
+        height={30}
         width={100}
         />
     </div>

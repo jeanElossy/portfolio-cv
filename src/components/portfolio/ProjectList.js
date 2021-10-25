@@ -16,7 +16,7 @@ const ProjectList = () => {
     },
     {
       id: 2,
-      name: 'Systeme de panier',
+      name: 'Système de panier',
       languages: ['js','css', 'html'],
       languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-html5'],
       source: 'https://github.com/jeanElossy/gomycode-projet-panier.git',
