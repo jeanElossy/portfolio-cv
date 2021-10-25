@@ -90,7 +90,14 @@
         margin: -4rem 1rem 0;
         a {
           font-size: 1rem !important;
+          background: $color-1 !important;
           color: #f1f1ff !important;
+          box-shadow: 0 3px 1px rgba(15, 15, 15, 0.678) !important;
+          &:hover{
+            color: $color-1 !important;
+            background: $color-2 !important;
+
+          }
         }
       }
      

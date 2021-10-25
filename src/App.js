@@ -4,9 +4,22 @@ import Knowledges from "./pages/Knowledges";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Loader from "./components/Loader";
+import { useState, useEffect } from "react"
 
 const App = () => {
-  return (
+
+  const [loader, setLoader] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false)
+    },1000);
+  }, [])
+
+  return loader ? (
+    <Loader />
+  ) : (
     <>
       <BrowserRouter>
         <Switch>

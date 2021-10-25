@@ -226,10 +226,12 @@
         height: 100% !important;
         width: 80% !important;
       }
-      
+      .showInfos {
+        bottom: -160%;
       .infosContent {
         width: 95% !important;
       }
+    }
     }
   }
 }
@@ -244,29 +246,20 @@
         padding: 0 .3rem !important;
       }
       input[type="radio"]{
-        
         &:before {
           left: -5px !important;
         }
       }
-       input:checked:after{
+      input:checked:after{
           left: -3px !important;
         }
-
   }
 
-   .portfolioContent {
-    
+  .portfolioContent {
     .projects {
       justify-content: start !important;
-  
     }
-
     .project {
-      grid-template-rows: 30px 40px 130px !important;
-      border-radius: 10px;
-      width: 100% !important;
-
       img {
         width: 90% !important;
       }
